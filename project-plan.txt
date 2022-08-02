@@ -1,0 +1,15 @@
+School Management Project
+-------------------------
+
+Feature
+=======
+1. Admit Student
+2. Login Student
+3. Teacher Login+Register
+4. Class Teacher Set Student Exam Number
+5. Weakly Exam + Monthly Exam + Semister Number
+6. Calculate Total Weakly Specific Subject Number and It's average and percentage
+7. Calculate Total Monthly Specific Subject Number and It's average and percentage
+8. Calculate Total Semister Specific Subject Number and It's average and percentage
+9. Teacher Feedback Mark
+10.Calculate All The percentage of the exam and make a leaderboard
