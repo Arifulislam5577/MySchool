@@ -13,3 +13,22 @@ Feature
 8. Calculate Total Semister Specific Subject Number and It's average and percentage
 9. Teacher Feedback Mark
 10.Calculate All The percentage of the exam and make a leaderboard
+
+
+Pages
+=======
+1. Home Page --> Banner,
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
