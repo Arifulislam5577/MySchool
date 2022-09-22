@@ -13,7 +13,7 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <div className="md:col-span-1 w-full bg-white p-5 text-gray-900 flex items-center justify-center flex-col">
+        <div className="md:col-span-1 w-full bg-gray-100 p-5 text-gray-900 flex items-center justify-center flex-col">
           <Outlet />
         </div>
       </div>

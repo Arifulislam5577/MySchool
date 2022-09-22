@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import InputField from "./InputField";
 
-const StudentLogin = () => {
+const Signup = () => {
   return (
     <form className="md:w-3/4 mx-auto my-5 md:p-0 p-3">
       <h1 className="text-2xl font-bold  mb-5 uppercase">
@@ -82,4 +82,4 @@ const StudentLogin = () => {
   );
 };
 
-export default StudentLogin;
+export default Signup;
