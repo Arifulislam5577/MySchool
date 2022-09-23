@@ -4,8 +4,8 @@ import InputField from "./InputField";
 
 const Signup = () => {
   return (
-    <form className="md:w-3/4 mx-auto my-5 md:p-0 p-3">
-      <h1 className="text-2xl font-bold  mb-5 uppercase">
+    <form className="lg:w-3/4 mx-auto my-5 lg:p-0 p-3">
+      <h1 className="text-2xl font-bold  mb-5 uppercase text-blue-600">
         create student account
       </h1>
       <div className="w-full grid grid-cols-2 gap-3 my-3">
@@ -74,7 +74,7 @@ const Signup = () => {
       </div>
       <div className="my-3 flex gap-2">
         <p className="text-sm text-gray-600">Already have an account?</p>
-        <Link to="login" className="text-sm text-blue-600">
+        <Link to="/auth/login" className="text-sm text-blue-600">
           Login
         </Link>
       </div>
