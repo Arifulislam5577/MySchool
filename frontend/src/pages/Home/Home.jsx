@@ -5,13 +5,13 @@ import {
   MdOutlineLibraryBooks,
 } from "react-icons/md";
 import { GoDashboard } from "react-icons/go";
-import { CgFormatSlash } from "react-icons/cg";
+import { BsTelephone } from "react-icons/bs";
 import { TbReportAnalytics } from "react-icons/tb";
 import { BiTask } from "react-icons/bi";
 const Home = () => {
   return (
-    <>
-      <div className="sidebar bg-gradient-to-t from-blue-900 to-slate-900 shadow  w-52 h-full fixed z-50 overflow-x-hidden top-0 left-0">
+    <section>
+      <div className="sidebar bg-gradient shadow  w-60 h-full fixed z-50 overflow-x-hidden top-0 left-0">
         <div className="profile mt-5">
           <img
             src="logo512.png"
@@ -115,30 +115,92 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="ml-52">
+      <div className="ml-60 ">
         <div className="container">
-          <div className="mt-10 mb-5">
-            <h2 className=" text-slate-900 font-bold text-2xl">
-              Welcome, Md Ariful Islam
-            </h2>
-          </div>
-          <div className="grid grid-cols-3 gap-5">
-            <div className="col-span-3   p-8 bg-gradient-to-l from-blue-900 to-slate-900">
-              <h2 className="text-xl font-bold text-white uppercase">
-                your ranking
-              </h2>
-              <div className="flex items-center gap-2">
-                <h2 className="text-3xl font-bold mb-2 text-orange-500">07</h2>
-                <span>
-                  <CgFormatSlash color="white" size="32" />
-                </span>
-                <span className="text-sm text-gray-500">from 32 students</span>
+          <div className="grid grid-cols-4 gap-5 mt-10 mb-5">
+            <div className="col-span-4">
+              <div className="p-10 bg-gradient  shadow rounded grid grid-cols-3 items-center justify-between">
+                <div className="col-span-2">
+                  <h2 className="text-2xl tracking-wider font-bold text-white uppercase">
+                    baroicha residential model school
+                  </h2>
+                  <p className="capitalize mt-2 text-white tracking-wider">
+                    baroicha,belabo,narsingdi
+                  </p>
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <button className="text-white flex items-center justify-center gap-2 capitalize border p-3">
+                    <BsTelephone />
+                    contact us
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-2">
+              <div className="bg-gradient shadow rounded p-10 flex items-center justify-between">
+                <h2 className="text-2xl uppercase text-white font-bold tracking-wider">
+                  Ranking
+                </h2>
+
+                <h2 className="text-xl uppercase text-white font-bold tracking-wider">
+                  <span className="text-orange-500 text-4xl">07</span>
+                  <span>/</span>
+                  <span>32</span>
+                </h2>
+              </div>
+            </div>
+            <div className="col-span-2">
+              <div className="bg-gradient shadow rounded p-10 ">
+                <div className="flexBtw">
+                  <h2 className="text-2xl uppercase text-white font-bold tracking-wider">
+                    Subject
+                  </h2>
+
+                  <h2 className="text-xl uppercase text-white font-bold tracking-wider">
+                    <span className="text-orange-500 text-4xl">11</span>
+                  </h2>
+                </div>
+                <div className="flexBtw flex-wrap mt-5 gap-3 ">
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    bangla 1st
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    bangla 2nd
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    english
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    math
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    religion
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    art
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    ict
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    physic
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    chemistry
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    biology
+                  </button>
+                  <button className="uppercase border py-2 px-4 text-sm text-white">
+                    higher math
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
